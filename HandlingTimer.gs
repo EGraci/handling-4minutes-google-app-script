@@ -23,6 +23,9 @@ class HandlingTime{
    let tmp = DriveApp.getFileById(this.id).getBlob().getDataAsString();
    return JSON.parse(tmp);
   }
+  getIdJson(){
+    return this.id;
+  }
   resetTimer(){
     this.start =  Date.now();
   }
