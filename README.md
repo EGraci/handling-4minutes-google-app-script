@@ -1,2 +1,2 @@
 # handling-4minutes-google-app-script
-# program main
+### run file main.gs
